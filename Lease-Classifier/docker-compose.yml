@@ -1,0 +1,17 @@
+services:
+  classifier:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      EFG_EXTRACTION_PROVIDER: ${EFG_EXTRACTION_PROVIDER:-anthropic}
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      EFG_EXTRACTION_MODEL: ${EFG_EXTRACTION_MODEL:-claude-sonnet-4-5}
+      EFG_DB_PATH: /data/efg_audit.db
+    volumes:
+      # Persist the audit log outside the container
+      - efg-data:/data
+    restart: unless-stopped
+
+volumes:
+  efg-data:

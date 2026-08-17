@@ -1,0 +1,148 @@
+{
+  "title": "EFG Lease Classifier — UCC §1-203 Case Law Library",
+  "version": "1.0",
+  "date": "2026-08-13",
+  "governance": "Controlled citations. The classifier may cite ONLY entries in this file. No LLM-invented citations. Each entry states its holding narrowly. Verify URLs against primary sources before external distribution.",
+  "cross_cutting": [
+    {
+      "citation": "UCC §1-203 — Lease Distinguished from Security Interest",
+      "holding": "Two-part test: per se bright-line under subsection (b); residual economic-realities analysis under subsection (a).",
+      "url": "https://www.law.cornell.edu/ucc/1/1-203"
+    },
+    {
+      "citation": "Frank Lyon Co. v. United States, 435 U.S. 561 (1978)",
+      "holding": "Supreme Court substance-over-form doctrine; cited for tax and UCC characterization when parties structure a lease to obscure a secured financing.",
+      "url": "https://supreme.justia.com/cases/federal/us/435/561/"
+    }
+  ],
+  "circuits": {
+    "Third Circuit": {
+      "states": ["DE", "NJ", "PA", "VI"],
+      "cases": [
+        {
+          "citation": "In re Pillowtex, Inc. (Duke Energy Royal, LLC v. Pillowtex Corp.), 349 F.3d 711 (3d Cir. 2003)",
+          "holding": "Leading circuit authority on the economic-realities test. Even where none of the four per se factors are met, a transaction is a secured financing where the aggregate present value of rents exceeds equipment cost. Framework: (a) is the purchase option nominal; (b) do payments have PV >= equipment cost; (c) does the lease term cover total useful life.",
+          "url": ""
+        }
+      ]
+    },
+    "Sixth Circuit": {
+      "states": ["KY", "MI", "OH", "TN"],
+      "cases": [
+        {
+          "citation": "In re QDS Components, Inc., 292 B.R. 313 (Bankr. S.D. Ohio 2002)",
+          "holding": "Ohio-law leading opinion on §1-203 recharacterization. A lease with a 'capital lease provision' — automatic ownership transfer, bargain purchase, or economic equivalent — is a per se security agreement under §1-203(b). Extended analysis of 'nominal consideration.'",
+          "url": ""
+        },
+        {
+          "citation": "Sunshine Heifers, LLC v. Citizens First Bank (In re Purdy), 763 F.3d 513 (6th Cir. 2014)",
+          "holding": "Where the lessor retains a meaningful reversionary interest — including a residual value guaranty rather than a bargain purchase — the transaction is a true lease. Ultimate test: did the lessor keep a 'meaningful reversionary interest' in the goods.",
+          "url": ""
+        },
+        {
+          "citation": "Leasing Service Corp. v. First Tennessee Bank, 826 F.2d 434 (6th Cir. 1987)",
+          "holding": "Older Sixth Circuit authority applying pre-revision UCC §1-201(37); retains relevance for the meaningful-residual and lessee equity-buildup factors.",
+          "url": ""
+        }
+      ]
+    },
+    "Eleventh Circuit": {
+      "states": ["AL", "FL", "GA"],
+      "cases": [
+        {
+          "citation": "In re Grubbs Construction Co., 319 B.R. 698 (Bankr. M.D. Fla. 2005)",
+          "holding": "Master Lease over five equipment schedules held not true leases but Article 9 security agreements because the lessee was effectively compelled to become owner at end of term.",
+          "url": ""
+        }
+      ]
+    },
+    "Fifth Circuit": {
+      "states": ["LA", "MS", "TX"],
+      "cases": [
+        {
+          "citation": "In re Pierce Industries / Fifth Circuit line of cases (Chapman & Cutler commentary)",
+          "holding": "Fifth Circuit consistently applies §1-203's two-part test and looks past the parties' labels to economic substance.",
+          "url": ""
+        }
+      ]
+    },
+    "Second Circuit": {
+      "states": ["CT", "NY", "VT"],
+      "cases": [
+        {
+          "citation": "In re WorldCom, Inc., 339 B.R. 56 (Bankr. S.D.N.Y. 2006)",
+          "holding": "Leading NY-law application. Failure to satisfy the bright-line test under §1-203(b) merely triggers §1-203(a) case-by-case analysis of whether the lessor retained a meaningful reversionary interest.",
+          "url": ""
+        },
+        {
+          "citation": "Pactel Fin. v. D.C. Marine Serv. Corp., 136 Misc.2d 194, 518 N.Y.S.2d 317 (N.Y. Dist. Ct. 1987)",
+          "holding": "Three-factor economic-realities inquiry: (a) nominal purchase option, (b) PV of rents >= original cost, (c) lease term covers total useful life.",
+          "url": ""
+        }
+      ]
+    },
+    "Fourth Circuit": {
+      "states": ["MD", "NC", "SC", "VA", "WV"],
+      "cases": [
+        {
+          "citation": "In re Southeastern Materials, Inc., Bankr. M.D.N.C. 2010",
+          "holding": "Applying N.C. Gen. Stat. §25-1-203: where the lease is non-terminable by the lessee and includes a $1.00 end-of-term purchase option, the bright-line test is satisfied and the agreement creates a security interest as a matter of law. Directly on point for $1 buyout transactions.",
+          "url": ""
+        }
+      ]
+    },
+    "Ninth Circuit": {
+      "states": ["AK", "AZ", "CA", "HI", "ID", "MT", "NV", "OR", "WA"],
+      "cases": [
+        {
+          "citation": "In re Financial Computer Systems, Inc., 474 F.2d 1258 (9th Cir. 1973)",
+          "holding": "Under pre-revision §1-201(37): a lease-with-option-to-become-owner for nominal consideration is a lease intended for security. Ninth Circuit BAP decisions applying current §1-203 continue the per se-first, economic-realities-second framework.",
+          "url": ""
+        }
+      ]
+    },
+    "Tenth Circuit": {
+      "states": ["KS", "CO", "NM", "OK", "UT", "WY"],
+      "cases": [
+        {
+          "citation": "In re Estate of Reifschneider and Kansas Bankruptcy Court car-lease line (Weil Restructuring Roundup commentary)",
+          "holding": "Kansas applies the two-prong test: (1) non-terminable by lessee, and (2) satisfaction of any one of the four §1-203(b) conditions.",
+          "url": ""
+        }
+      ]
+    }
+  },
+  "state_specific": {
+    "OH": {
+      "note": "Ohio is the governing law of EFG's standard-form lease (§24). Cite in this order.",
+      "ordered_citations": [
+        {
+          "citation": "In re QDS Components, Inc., 292 B.R. 313 (Bankr. S.D. Ohio 2002)",
+          "holding": "Controlling Ohio-law authority on §1-203 recharacterization.",
+          "url": ""
+        },
+        {
+          "citation": "Ohio Rev. Code §1301.203 (Ohio's UCC §1-203)",
+          "holding": "Bright-line and economic-realities tests as adopted in Ohio.",
+          "url": "https://codes.ohio.gov/ohio-revised-code/section-1301.203"
+        },
+        {
+          "citation": "Ohio Rev. Code Chapter 1309 (Ohio's UCC Article 9)",
+          "holding": "Statutory framework governing perfection, priority, and remedies.",
+          "url": "https://codes.ohio.gov/ohio-revised-code/chapter-1309"
+        },
+        {
+          "citation": "Leasing Service Corp. v. First Tennessee Bank, 826 F.2d 434 (6th Cir. 1987)",
+          "holding": "Persuasive Sixth Circuit authority on meaningful residual and lessee equity-buildup.",
+          "url": ""
+        }
+      ]
+    }
+  },
+  "nominal_consideration": [
+    {"value": "$1.00", "treatment": "Universally nominal (In re Southeastern Materials; In re QDS Components)."},
+    {"value": "<= 10% of lease value", "treatment": "Not nominal only when tied to fair-market-value expectation (Chapman Bankruptcy Desk Reference)."},
+    {"value": ">= 25% of FMV at end of term", "treatment": "Generally not nominal."},
+    {"value": "FMV or reasonably predictable FMV", "treatment": "Expressly not a security interest per §1-203(c)(6)."}
+  ]
+}
